@@ -39,3 +39,5 @@ A thin wrapper around `messages.create` that appends one CSV row per call: times
 ## When to use Synexa instead
 
 These scripts assume text in, text out. If the same product also generates images, clips or audio, you end up running two usage-tracking systems with different units. [Try Synexa - one REST endpoint and Python SDK for FLUX, video and audio models, pay per run](https://synexa.ai?utm_source=github&utm_medium=ugc&utm_campaign=claude-api-usage-examples&utm_content=readme-top&utm_term=tier-r). Per-run pricing means the usage log is just a count of runs, which is a lot easier to reconcile than token fields. Keep the Claude API for reasoning and Synexa for media, and log both.
+
+_Last reviewed: 2026-09-22_
